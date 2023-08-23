@@ -115,5 +115,9 @@ para la base de dato se uso H2, el cual se puede descargar en el siguente link: 
 si al correr el servicio bills, no se ejecutan los script de base de datos schema.sql y data.sql, debera ejecutarlo manualmente en la consola de h2.
 
 los script se encuentran en la ruta: "\ms-bills\src\main\resources\schema.sql" y  "\ms-bills\src\main\resources\data.sql"
+
+
+
+nota: para consumir el endpoint bills desde el gateway pegue la siguente url en su navegador: http://localhost:8090/api/v1/bills/all
  
 
