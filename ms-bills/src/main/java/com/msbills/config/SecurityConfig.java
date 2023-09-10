@@ -26,7 +26,8 @@ public class SecurityConfig {
         jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(new JwtAuthConverter());
 
         http.authorizeHttpRequests()
-                .antMatchers(HttpMethod.GET,"/api/v1/bills/all").hasRole("USER");
+                .antMatchers(HttpMethod.GET,"/api/v1/bills/all").hasRole("USER")
+                .antMatchers(HttpMethod.GET,"/api/v1/bills/{id}").authenticated();
         http.oauth2ResourceServer()
                 .jwt()
                 .jwtAuthenticationConverter(jwtAuthenticationConverter);

@@ -4,9 +4,8 @@ import com.msbills.models.Bill;
 import com.msbills.service.BillService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.security.access.prepost.PreAuthorize;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -22,5 +21,19 @@ public class BillController {
 
         return ResponseEntity.ok().body(service.getAllBill());
     }
+
+    @GetMapping("{id}")
+    public ResponseEntity<List<Bill>> find(@PathVariable String id) {
+
+        return ResponseEntity.ok().body(service.findBillPerUserId(id));
+    }
+
+    @DeleteMapping("{id}")
+    @PreAuthorize("hasRole('PROVIDERS')")
+    public ResponseEntity<String> deleteBill(@PathVariable String id) {
+
+        return ResponseEntity.ok().body(service.deleteBill(id));
+    }
+
 
 }
