@@ -21,12 +21,14 @@ public class BillService {
     }
 
     public List<Bill> findBillPerUserId(String id) {
+        System.out.println("ID "+id);
+        System.out.println("Bills SIze: "+  repository.findByCustomerBill(id).size());
         return repository.findByCustomerBill(id);
     }
 
     public String deleteBill(String id) {
       Optional<Bill> bill= Optional.ofNullable(repository.findById(id).orElse(null));
-      if (bill.isPresent()){
+      if (!bill.isPresent()){
           throw new RuntimeException("not found bill in the database with id "+id);
       }
       repository.deleteById(id);

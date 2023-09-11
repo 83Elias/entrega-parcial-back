@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 import java.util.Optional;
 
-@RequestMapping("/customer")
+@RequestMapping("/customer/bills")
 @RestController
 @AllArgsConstructor
 public class userController {
@@ -20,9 +20,9 @@ public class userController {
     private ServiceUser serviceUser;
 
 
-    @GetMapping("/bills/{id}")
+    @GetMapping("/{id}")
     public ResponseEntity<Optional<User>> getAllUsers(@PathVariable String id) {
-        return ResponseEntity.ok(serviceUser.findById(id));
+        return ResponseEntity.ok(serviceUser.getUserWithBills(id));
     }
 
 

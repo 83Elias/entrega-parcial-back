@@ -8,7 +8,7 @@ spring:
           issuer-uri: http://localhost:8080/realms/parcial-back-end
           jwk-set-uri: ${spring.security.oauth2.resourceserver.jwt.issuer-uri}/protocol/openid-connect/certs
   datasource:
-    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
+    url: jdbc:h2:~/testdb
     driverClassName: org.h2.Driver
     username: sa
     password:

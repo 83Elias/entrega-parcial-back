@@ -1,6 +1,7 @@
 package com.example.msusers.service;
 
 
+import com.example.msusers.domain.Bill;
 import com.example.msusers.domain.User;
 import com.example.msusers.feing.BillsFeign;
 import com.example.msusers.repository.UserRepository;
@@ -10,7 +11,7 @@ import org.keycloak.representations.idm.UserRepresentation;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Repository;
 
-import javax.ws.rs.NotFoundException;
+import java.util.List;
 import java.util.Optional;
 
 @RequiredArgsConstructor
@@ -31,7 +32,8 @@ public class ServiceUser implements UserRepository {
             userRepresentation = keyclaokClient.realm(realm)
                     .users().get(id)
                     .toRepresentation();
-        } catch (NotFoundException e) {
+        } catch (Exception e) {
+            System.out.println(e.getMessage());
             return Optional.empty();
         }
         return Optional.of(toUser(userRepresentation));
@@ -55,13 +57,15 @@ public class ServiceUser implements UserRepository {
             userRepresentation = keyclaokClient.realm(realm)
                     .users().get(id)
                     .toRepresentation();
-        } catch (NotFoundException e) {
+        } catch (Exception e) {
             return Optional.empty();
         }
 
         Optional<User> user =Optional.of(toUser(userRepresentation));
+        List<Bill> billList = billsFeign.getBillsPerIdUser(id).getBody();
 
-        user.get().setBills(billsFeign.getBillsPerIdUser(user.get().getId()));
+        System.out.println("LIST "+billList.size());
+        user.get().setBills(billList);
 
         return user;
 

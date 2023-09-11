@@ -24,6 +24,12 @@ spring:
           uri: lb://ms-bill
           predicates:
             - Path=/api/v1/**
+        - id: ms-user
+          uri: lb://ms-users
+          predicates:
+            - Path=/customer/bills/**
+
+
   security:
     oauth2:
       client:

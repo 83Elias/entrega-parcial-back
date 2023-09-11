@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bfb071d0-3bfd-4e96-affb-c0869f24dcbb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Feign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../live-coding/.idea/live-coding.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/FeignInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/WebSecurity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/resources/application-local.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/4/f/4ff7bcc0b2d09acb7b5bda18c6cc8d0566e02aee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/6/4/642d3dc0fb97ef8c73c99a52244c6cb1b7319d0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/7/3/7335d4b392eab6cb18b84aa22332c0fd01fce089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/9/a/9ab1fb602a4b9ce1413ab762be54463d83304a21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/a/2/a2b46a9c91c9e83f0a05b6df9ed50af52bbef082" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/d/7/d719baf28eda177040317cfb2d35748a844d3130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/4/f/4ff7bcc0b2d09acb7b5bda18c6cc8d0566e02aee" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/6/4/642d3dc0fb97ef8c73c99a52244c6cb1b7319d0c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/7/3/7335d4b392eab6cb18b84aa22332c0fd01fce089" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/9/a/9ab1fb602a4b9ce1413ab762be54463d83304a21" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/a/2/a2b46a9c91c9e83f0a05b6df9ed50af52bbef082" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/d/7/d719baf28eda177040317cfb2d35748a844d3130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/feing/BillsFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/feing/BillsFeign.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/service/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/service/ServiceUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/resources/application.yml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2UrbC19H4SfP5rbgJYI2JTHPkac" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/conta/Desktop/DH/Especialización Backend II/072023 C1/Clase 12 - Comunicación Segura entre MS/manipulando el cod/Feign/subscription-service/src/main/java/com/dh/subscriptionservice/configs",
+    "spring.configuration.checksum": "15f85bc562de3fa6286376e5fa0ac990"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\conta\Desktop\DH\Especialización Backend II\072023 C1\Clase 12 - Comunicación Segura entre MS\manipulando el cod\Feign\subscription-service\src\main\java\com\dh\subscriptionservice\configs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.UserServiceApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dh.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubscriptionServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dh.subscriptionservice.SubscriptionServiceApplication" />
+      <module name="subscription-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.subscriptionservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.dh.userservice.UserServiceApplication" />
+      <module name="user-service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dh.userservice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.UserServiceApplication" />
+        <item itemvalue="Application.SubscriptionServiceApplication" />
+        <item itemvalue="Application.ApiGatewayApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfb071d0-3bfd-4e96-affb-c0869f24dcbb" name="Changes" comment="" />
+      <created>1693700514770</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693700514770</updated>
+      <workItem from="1694388409613" duration="1969000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
