@@ -6,6 +6,17 @@ spring:
       resourceserver:
         jwt:
           issuer-uri: http://localhost:8080/realms/parcial-back-end
+      client:
+        registration:
+          keycloak:
+            client-id: ms-user
+            client-secret: hOIPchDdv7MiaQfx69I3xtAbRCNDIT5X
+            authorization-grant-type: client_credentials
+            provider: keycloak
+        provider:
+          keycloak:
+             issuer-uri: http://localhost:8080/realms/parcial-back-end
+             tokenUri: http://localhost:8080/realms/parcial-back-end/protocol/openid-connect/token
 
 eureka:
   instance:

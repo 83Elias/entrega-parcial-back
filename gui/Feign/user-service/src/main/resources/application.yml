@@ -18,7 +18,7 @@ spring:
         provider:
           keycloak:
 #            issuer-uri: http://localhost:8080/realms/miercoles
-            tokenUri: http://localhost:8080/realms/miercoles/protocol/openid-connect/token
+            tokenUri: http://localhost:8080/realms/parcial-back-end/protocol/openid-connect/token
 
 eureka:
   client:

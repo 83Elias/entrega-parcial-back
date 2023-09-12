@@ -21,8 +21,7 @@ public class BillService {
     }
 
     public List<Bill> findBillPerUserId(String id) {
-        System.out.println("ID "+id);
-        System.out.println("Bills SIze: "+  repository.findByCustomerBill(id).size());
+
         return repository.findByCustomerBill(id);
     }
 

@@ -9,7 +9,6 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
-import org.springframework.security.core.authority.mapping.SimpleAuthorityMapper;
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 import org.springframework.security.oauth2.server.resource.authentication.JwtGrantedAuthoritiesConverter;
 import org.springframework.security.web.SecurityFilterChain;
@@ -28,7 +27,7 @@ public class SecurityConfig {
 
         http.authorizeHttpRequests()
                 .antMatchers(HttpMethod.GET,"/api/v1/bills/all").hasRole("USER")
-                .antMatchers(HttpMethod.DELETE,"/api/v1/bills/{id}").hasAuthority("PROVIDERS")
+                .antMatchers(HttpMethod.DELETE,"/api/v1/bills/{id}").hasRole("PROVIDERS")
                 .anyRequest().authenticated();
         http.oauth2ResourceServer()
                 .jwt()

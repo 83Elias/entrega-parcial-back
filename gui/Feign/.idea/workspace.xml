@@ -5,35 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb071d0-3bfd-4e96-affb-c0869f24dcbb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Feign.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../live-coding/.idea/live-coding.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/FeignInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/WebSecurity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/resources/application-local.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/KeyCloakJwtAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/keyloakFlow/OAuthClientCredentialsFeignManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/keyloakFlow/OAuthFeignConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ea9babf126ec5fe1e961c476a0ca318b663e987" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/e/3e45f5419808b3fec95a9d864a9c04cb2903654c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/c/6cb1d43884ca912e96315c2da9fac131da150421" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2f5d1978e5f519100a679c4109f89296278badc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/7/f70aedd2255e8ff0dc5de7f7034c8a90920142d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1ea9babf126ec5fe1e961c476a0ca318b663e987" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/e/3e45f5419808b3fec95a9d864a9c04cb2903654c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/6/c/6cb1d43884ca912e96315c2da9fac131da150421" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/2/d2f5d1978e5f519100a679c4109f89296278badc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/7/f70aedd2255e8ff0dc5de7f7034c8a90920142d5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gateway/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Gateway/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../Gateway/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-gateway/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/4/f/4ff7bcc0b2d09acb7b5bda18c6cc8d0566e02aee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/6/4/642d3dc0fb97ef8c73c99a52244c6cb1b7319d0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/7/3/7335d4b392eab6cb18b84aa22332c0fd01fce089" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/9/a/9ab1fb602a4b9ce1413ab762be54463d83304a21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/a/2/a2b46a9c91c9e83f0a05b6df9ed50af52bbef082" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/d/7/d719baf28eda177040317cfb2d35748a844d3130" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/controller/BillController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/controller/BillController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/security/JwtAuthConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/security/JwtAuthConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/service/BillService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-bills/src/main/java/com/msbills/service/BillService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-bills/src/main/resources/application-local.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/4/f/4ff7bcc0b2d09acb7b5bda18c6cc8d0566e02aee" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/6/4/642d3dc0fb97ef8c73c99a52244c6cb1b7319d0c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/7/3/7335d4b392eab6cb18b84aa22332c0fd01fce089" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/9/a/9ab1fb602a4b9ce1413ab762be54463d83304a21" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/a/2/a2b46a9c91c9e83f0a05b6df9ed50af52bbef082" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/d/7/d719baf28eda177040317cfb2d35748a844d3130" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/controller/userController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/controller/userController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/FeignInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/viaGateway/FeignInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/WebSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/config/WebSecurity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/feing/BillsFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/feing/BillsFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/service/ServiceUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/java/com/example/msusers/service/ServiceUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ms-users/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/target/classes/com/example/msusers/config/FeignInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/target/classes/com/example/msusers/config/WebSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/target/classes/com/example/msusers/config/WebSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ms-users/target/classes/com/example/msusers/feing/BillsFeign.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ms-users/target/classes/com/example/msusers/feing/BillsFeign.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,15 +90,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/conta/Desktop/DH/Especialización Backend II/072023 C1/Clase 12 - Comunicación Segura entre MS/manipulando el cod/Feign/subscription-service/src/main/java/com/dh/subscriptionservice/configs",
-    "spring.configuration.checksum": "15f85bc562de3fa6286376e5fa0ac990"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/conta/Desktop/DH/Especialización Backend II/072023 C1/Clase 12 - Comunicación Segura entre MS/manipulando el cod/Feign/subscription-service/src/main/java/com/dh/subscriptionservice/configs&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;15f85bc562de3fa6286376e5fa0ac990&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\conta\Desktop\DH\Especialización Backend II\072023 C1\Clase 12 - Comunicación Segura entre MS\manipulando el cod\Feign\subscription-service\src\main\java\com\dh\subscriptionservice\configs" />
@@ -155,6 +161,8 @@
       <option name="presentableId" value="Default" />
       <updated>1693700514770</updated>
       <workItem from="1694388409613" duration="1969000" />
+      <workItem from="1694404959474" duration="3556000" />
+      <workItem from="1694479563830" duration="134000" />
     </task>
     <servers />
   </component>

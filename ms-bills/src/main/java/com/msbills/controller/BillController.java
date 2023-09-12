@@ -29,6 +29,7 @@ public class BillController {
     }
 
     @DeleteMapping("{id}")
+    @PreAuthorize("hasRole('PROVIDERS')")
     public ResponseEntity<String> deleteBill(@PathVariable String id) {
 
         return ResponseEntity.ok().body(service.deleteBill(id));
